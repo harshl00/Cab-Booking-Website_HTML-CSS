@@ -1,0 +1,1102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+::selection {
+    background-color: rgba(250, 183, 0, 1);
+    color: rgb(255, 255, 255);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+}
+
+.modal-content {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(114, 110, 110, 0.4) inset;
+    border-radius: 10px;
+}
+
+.modal-slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.modal-image {
+    width: auto;
+    height: 100%;
+}
+
+.modal-image img {
+    width: auto !important;
+    height: 480px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY();
+    border-radius: 5px;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+.owl-dot {
+    width: auto;
+}
+
+.owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.owl-prev {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+    font-size: 50px !important;
+}
+
+.owl-prev:hover {
+    background: none;
+    color: red;
+}
+
+.owl-next {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3%;
+    font-size: 50px !important;
+    padding: 10px !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: rgba(250, 183, 0, 1);
+}
+
+header {
+    padding-bottom: 60px;
+}
+
+.banner {
+    background-image: url(../images/Hero-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px 100px 38px 100px;
+}
+
+#logo {
+    display: flex;
+}
+
+.logo1 {
+    padding: 24px 0px;
+}
+
+.l1 {
+    background-image: url(../images/logo.png);
+    background-size: 100% 100%;
+    width: 295px;
+    height: 44.45px;
+}
+
+.l2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.m1 {
+    padding: 30px 0px;
+}
+
+.call-icon {
+    width: 29px;
+    background-image: url(../images/call.png);
+    background-size: 100% 100%;
+}
+
+.call-num {
+    margin-left: 8px;
+    width: auto;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.9px;
+    text-align: right;
+    color: white;
+}
+
+.frame-95 {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1 {
+    width: 76.1%;
+    padding: 3.5px 0px;
+    display: block;
+}
+
+.heading {
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69.36px;
+    color: white;
+}
+
+.span-taxi {
+    color: red;
+}
+
+.bt {
+    width: 100%;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.span-call {
+    font-weight: 700;
+}
+
+.mobile-f2 {
+    display: none;
+}
+
+.f2 {
+    width: 245px;
+    height: auto;
+    padding: 19.5px 3.5px 14.5px 6.42px;
+}
+
+.f2 img {
+    width: 100%;
+    height: auto;
+}
+
+.form-box {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 75px;
+    margin-bottom: 38px;
+    padding: 32px 28.5px;
+    box-shadow: 0px 10px 15px 0px rgba(170, 170, 170, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 19px;
+    justify-content: space-between;
+    column-gap: 15px
+}
+
+.form-bundle {
+    width: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.form-field-top {
+    width: 24%;
+}
+
+.form-bundle label {
+    color: rgba(255, 255, 255, 1);
+    font: 700 16px "Mulish", "sans-serif";
+    text-shadow: 2px 2px 5px rgba(146, 146, 146, 0.15);
+}
+
+.form-input {
+    border: 1px solid rgba(248, 248, 248, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(30, 30, 30, 1);
+    font: 400 16px "Mulish", "sans-serif";
+    line-height: 20.8px;
+    padding: 15px 10px;
+    margin-top: 5px;
+}
+
+.select-input {
+    cursor: pointer;
+}
+
+label.error {
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.form-input.error {
+    border: 1.5px solid rgba(206, 25, 25, 1);
+    color: rgba(206, 25, 25, 1);
+}
+
+.form-submit {
+    padding: 15px 10px;
+    background-color: rgba(206, 25, 25, 1);
+    font: 700 16px "Mulish", "sans-serif";
+    line-height: 20.8px;
+    transform: translateY(35%);
+    color: rgba(255, 255, 255, 1);
+}
+
+.counters {
+    width: 100%;
+    display: flex;
+    padding: 47px 204px;
+    justify-content: space-between;
+}
+
+.c1 {
+    width: 28.5%;
+    height: auto;
+    border: 1px solid rgba(248, 248, 248, 1);
+    box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+    border-radius: 10px;
+    padding: 37px 0px;
+}
+
+.c1:hover {
+    box-shadow: -5px 5px 10px 3px rgba(100, 100, 100, 0.5);
+}
+
+.c1 h2 {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69.36px;
+    width: auto;
+}
+
+.ch1 {
+    color: rgba(216, 158, 0, 1);
+}
+
+.ch2 {
+    color: rgba(188, 51, 51, 1);
+}
+
+.ch3 {
+    color: rgba(75, 164, 148, 1);
+}
+
+.c1 p {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.9px;
+    width: auto;
+}
+
+.fleet {
+    width: 100%;
+    padding: 60.5px 0px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.fleet-head {
+    width: 64.2%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fleet-head h2,
+.routes-heading h2 {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.02px;
+}
+
+.fleet-head p {
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+
+.fleet-content {
+    margin-top: 32px;
+    width: 86.1%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    column-gap: 1.6%;
+    row-gap: 29px;
+    flex-wrap: wrap;
+}
+
+.fleet-content-container {
+    background-color: rgba(255, 255, 255, 1);
+    width: 23.8%;
+    border: 1px solid rgba(248, 248, 248, 1);
+    box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+    border-radius: 10px;
+    padding: 16px 15px;
+}
+
+.fleet-content-container:hover {
+    box-shadow: -5px 5px 10px 3px rgba(100, 100, 100, 0.5);
+}
+
+.car-info {
+    width: 89.8%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.car-image {
+    position: relative;
+}
+
+.car-image>img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.car-image:hover img {
+    filter: brightness(40%);
+}
+
+.mag-glass {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    transform: translateY(-55%);
+    display: none;
+    left: 0;
+}
+
+.car-image:hover .mag-glass {
+    display: block;
+}
+
+.car-name>h6 {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28.9px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.car-name>p {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.book-now-butn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 89.8%;
+    padding: 13.5px 0px;
+    border: 1px solid rgba(250, 183, 0, 1);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 38px;
+    background-color: rgba(250, 183, 0, 1);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.airport {
+    width: 100%;
+    display: flex;
+    padding: 61px 205px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.a-heading {
+    width: 30.58%;
+    margin: 75.5px 54px 75.5px 0px;
+}
+
+.a-heading h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40.46px;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 9px;
+}
+
+.a-heading p {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.a-content {
+    width: 64.17%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-location {
+    height: 100%;
+    position: relative;
+}
+
+.a-location img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(248, 248, 248, 1);
+    border-radius: 10px;
+}
+
+.a-location p {
+    padding: 0px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 15px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.services {
+    width: 100%;
+    padding: 73px 0px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.s-heading {
+    width: 41.18%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s-heading h2 {
+    font: 700 36px "Jost", "sans serif";
+    line-height: 52.02px;
+    color: rgba(30, 30, 30, 1);
+    text-align: center;
+}
+
+.s-heading p {
+    font: 400 16px "Mulish", "sans serif";
+    line-height: 20.8px;
+    text-align: center;
+    color: rgba(85, 85, 85, 1);
+}
+
+.service-container {
+    width: 73.5%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-image {
+    width: 66%;
+    height: auto;
+}
+
+.service-image img {
+    height: auto;
+}
+
+.service-info {
+    width: 100%;
+    margin: 19.5px 0px 19.5px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s1 {
+    width: 100%;
+    display: flex;
+}
+
+.s1-margin {
+    margin-bottom: 42px
+}
+
+.s-icon {
+    width: 56px;
+    height: 56px;
+    margin-right: 25px;
+}
+
+.s-brief {
+    width: 100%;
+}
+
+.s-brief h4 {
+    font: 700 20px "Jost", "sans-serif";
+    line-height: 28.9px;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 10px;
+}
+
+.s-brief p {
+    font: 400 16px "Mulish", "sans-sesrif";
+    line-height: 20.8px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.review-container {
+    width: 100%;
+    padding: 64px 100px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.r-heading {
+    font: 700 36px "Jost", "sans-serif";
+    line-height: 52.02px;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+}
+
+.r-heading span {
+    color: rgba(250, 183, 0, 1);
+}
+
+.reviews {
+    width: 100%;
+    display: flex;
+    row-gap: 29px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 50px 0px;
+}
+
+.review-box {
+    width: 32.25%;
+    padding: 35px 30px;
+    border: 1px solid rgba(248, 248, 248, 1);
+    box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+    border-radius: 10px;
+}
+
+.review-box:hover {
+    box-shadow: -10px 10px 10px 5px rgba(146, 146, 146, 0.5);
+}
+
+.review-box:hover .r-name {
+    color: rgba(250, 183, 0, 1);
+}
+
+.r-name-star {
+    margin-bottom: 23px;
+}
+
+.r-name {
+    font: 700 20px "Jost", "sans-serif";
+    line-height: 28.9px;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 8px;
+}
+
+.r-star img {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.act-review {
+    font: 400 16px "Mulish", "sans-serif";
+    line-height: 20.8px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.view-all {
+    width: 107px;
+    height: 48px;
+    border: 1px solid rgba(30, 30, 30, 1);
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.view-all a {
+    text-decoration: none;
+    font: 700 16px "Mulish", "sans-serif";
+    line-height: 20.8px;
+    color: rgba(30, 30, 30, 1);
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.view-all:hover {
+    background-color: rgba(250, 183, 0, 1);
+}
+
+.view-all:hover a {
+    color: rgba(248, 248, 248, 1);
+}
+
+.sightseeing {
+    width: 100%;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 68px 100px;
+}
+
+.sight-head h2 {
+    font: 700 36px "Jost", "sans-serif";
+    line-height: 52.02px;
+    text-align: center;
+}
+
+.sightseeing-locations {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 36px;
+}
+
+.s-l-1 {
+    border: 1px solid rgba(248, 248, 248, 1);
+}
+
+.s-l-1 img {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px
+}
+
+.s-l-1 p {
+    text-align: center;
+    font: 700 20px "Jost", "sans-serif";
+    line-height: 28.9px;
+}
+
+.routes {
+    padding: 58px 150px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.routes-container {
+    width: 100%;
+}
+
+.routes-content {
+    display: flex;
+    column-gap: 54px;
+    margin-top: 65px;
+}
+
+.routes-image {
+    width: 90%;
+}
+
+.routes-image img {
+    border-radius: 10px;
+}
+
+.routes-list-inside {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px 13px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.routes-1,
+.routes-2,
+.routes-3 {
+    font: 700 20px "Jost", "sans-serif";
+    line-height: 28.9px;
+    color: rgba(30, 30, 30, 1);
+    padding: 14px 21px 18px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px 0 rgba(146, 146, 146, 0.15);
+    width: auto;
+    border-radius: 10px;
+}
+
+.routes-1::before {
+    content: url(../images/Taxi-1.png);
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+
+.routes-2::before {
+    content: url(../images/Taxi-2.png);
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+
+.routes-3::before {
+    content: url(../images/Taxi-3.png);
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+
+/* li::marker{
+    font-size: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+} */
+
+.transfers {
+    width: 100%;
+    padding: 58px 14.3%;
+}
+
+.tr-h {
+    font: 700 36px "Jost", "sans-serif";
+    line-height: 52.02px;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 16px;
+}
+
+.tr-p {
+    font: 400 16px "Mulish", "sans-serif";
+    line-height: 20.8px;
+    text-align: center;
+    color: rgba(85, 85, 85, 1);
+}
+
+.p-n-g {
+    margin-top: 28px;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(30, 30, 30, 1);
+    padding-bottom: 25px;
+}
+
+.p-n-g ul {
+    height: auto;
+    overflow: hidden;
+}
+
+.last-header {
+    font: 700 24px "Jost", "sans-serif";
+    line-height: 34.68px;
+    color: rgba(250, 183, 0, 1);
+}
+
+.transfer-list {
+    margin-top: 15px;
+}
+
+.transfer-list li {
+    list-style-position: inside;
+    list-style-image: url(../images/ellipse.png);
+    color: rgba(85, 85, 85, 1);
+    width: auto;
+    float: left;
+    margin-right: 35px;
+    font: 700 16px "Mulish", "sans-serif";
+    line-height: 40px;
+    position: relative;
+    top: 0;
+}
+
+.footer-box {
+    width: 100%;
+    height: auto;
+    background-color: rgba(30, 30, 30, 1);
+    padding: 27px 0px;
+}
+
+.footer-content {
+    color: rgba(248, 248, 248, 1);
+    font: 300 14px "Poppins", "sans-serif";
+    line-height: 22.75px;
+    text-align: center;
+}
+
+.footer-icon {
+    display: inline;
+    color: rgba(250, 183, 0, 1);
+}
+
+.footer-content a {
+    color: rgba(250, 183, 0, 1);
+}
+
+.footer-content a:visited {
+    color: rgba(250, 183, 0, 1);
+}
+
+.sticky-call {
+    width: 142px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 2%;
+    right: 6.945%;
+    position: fixed !important;
+    z-index: 16000160 !important;
+}
+
+.st1 {
+    width: auto;
+    height: auto;
+    padding: 10px 14px;
+    border-radius: 70px;
+    background-color: rgba(250, 183, 0, 1);
+    margin-right: 14px;
+    box-shadow: 0px 5px 10px 1px rgba(30, 30, 30, 1);
+}
+
+.st2 {
+    width: auto;
+    height: auto;
+    padding: 10px 14px;
+    border-radius: 70px;
+    background-color: green;
+    box-shadow: 0px 5px 10px 1px rgba(30, 30, 30, 1);
+}
+
+/* .st1{
+    width: 64px;
+    height: 64px;
+}
+
+.st2{
+    width: 64px;
+    height: 64px;
+} */
+
+/* .st1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.st2 img{
+    width: 100%;
+    height: 100%;
+} */
+
+.sticky-phone {
+    font-size: 36px;
+    background-color: rgba(250, 183, 0, 1);
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sticky-watsapp {
+    font-size: 44px;
+    background-color: green;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* .st2 img{
+    width: 100%;
+    height: 100%;
+} */
+
+.header-book {
+    padding: 22px 20px;
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.booking-container {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+#booking-logo img {
+    width: 295px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-white {
+    color: rgba(255, 255, 255, 1);
+}
+
+.circle {
+    display: none;
+}
+
+.fa-phone {
+    width: auto;
+}
+
+#nav-bar {
+    display: block;
+}
+
+.header-h3 {
+    text-align: right;
+    font: 700 20px "Jost", "sans-serif";
+    line-height: 28.9px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.success-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#booking-phone-icon {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.success-image {
+    width: 290px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.success-header {
+    font: 700 28px "Jost", "Sans-serif";
+    line-height: 40.46px;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+}
+
+.success-para,
+.back-home a {
+    font: 400 16px "Mulist", "sans-serif";
+    line-height: 20.8px;
+    color: rgba(85, 85, 85, 1);
+    text-align: center;
+}
+
+.back-home {
+    padding: 13px 15px;
+    background-color: rgba(250, 183, 0, 1);
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-home a {
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.is_sticky {
+    position: fixed;
+    bottom: 0;
+}

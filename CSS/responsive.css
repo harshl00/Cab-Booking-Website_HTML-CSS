@@ -1,0 +1,803 @@
+@media screen and (max-width: 760px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .modal-content {
+        height: 250px;
+        width: 90%;
+    }
+    .modal-image img {
+        height: 240px;
+    }
+    .owl-prev {
+        left: 2%;
+        font-size: 30px !important;
+    }
+    .owl-next {
+        right: 2%;
+        font-size: 30px !important;
+    }
+    header {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .banner {
+        background-image: url(../images/Hero-banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 37px 25px 50px 24px;
+        height: 100%;
+    }
+    #logo {
+        width: 85.75%;
+        height: auto;
+        display: block;
+        margin-bottom: 47.56px;
+    }
+    .logo1 {
+        padding: 0px;
+    }
+    .l1 {
+        width: 100%;
+        background-image: url(../images/logo.png);
+        background-size: 100% 100%;
+        position: static;
+    }
+    .m1 {
+        display: none;
+    }
+    .l2 {
+        display: none;
+    }
+    .frame-95 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .f1 {
+        width: 100%;
+        height: auto;
+        padding: 3.5px 0px;
+        margin-bottom: 9px;
+    }
+    .heading {
+        width: 100%;
+        height: auto;
+        font-family: "Jost", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 52.02px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .span-taxi {
+        color: red;
+    }
+    .body-text {
+        width: 100%;
+        height: auto;
+    }
+    .bt {
+        width: 100%;
+        color: white;
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    .mobile-f2 {
+        display: block;
+        width: 71%;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 19px 0px;
+    }
+    .mobile-f2 img {
+        width: 96%;
+        height: 88.6%;
+        position: relative;
+        top: 0;
+        transform: translateY(0%);
+        left: 2%;
+    }
+    .f2 {
+        display: none;
+    }
+    .form-box {
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 32px 20.5px;
+        margin-top: 24px;
+        margin-bottom: 38px;
+        box-shadow: 0px 10px 15px 0px rgba(170, 170, 170, 0.25);
+        backdrop-filter: blur(10px);
+    }
+    .form-content {
+        width: 100%;
+        height: 71%;
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .form-bundle {
+        float: left;
+        width: 100%;
+    }
+    .form-date-time {
+        width: 45%;
+        float: left;
+    }
+    .form-select-1 {
+        width: 100%;
+    }
+    .form-submit {
+        width: 135px;
+        background-color: rgba(206, 25, 25, 1);
+        font: 700 16px "Mulish", "sans-serif";
+        transform: translateY(40%);
+        color: rgba(255, 255, 255, 1);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .counters {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 47px 49px;
+        justify-content: space-between;
+    }
+    .c1 {
+        width: 100%;
+        height: 26.2%;
+        border: 1px solid rgba(248, 248, 248, 1);
+        box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+        border-radius: 10px;
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        padding: 37px 0px;
+    }
+    .c1 h2 {
+        font: 700 42px "Jost", "sans-serif";
+    }
+    .c1-margin {
+        margin-bottom: 73px;
+    }
+    .fleet {
+        width: 100%;
+        padding: 52px 51.5px;
+        background-color: rgba(248, 248, 248, 1);
+    }
+    .fleet-head {
+        width: 100%;
+        padding: 0px 17px;
+    }
+    .fleet-head h2 {
+        text-align: center;
+        font: 700 28px "Jost", sans-serif;
+        line-height: 40.46px;
+    }
+    .fleet-head p {
+        text-align: center;
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+    }
+    .fleet-content {
+        margin-top: 32px;
+        width: 100%;
+        /* max-width: 300px;
+        min-width: 250px; */
+        height: auto;
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .fleet-content-container {
+        background-color: rgba(255, 255, 255, 1);
+        width: 100%;
+        height: auto;
+        border: 1px solid rgba(248, 248, 248, 1);
+        box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+        border-radius: 10px;
+    }
+    .fleet-content-container-margin {
+        margin-bottom: 29px;
+    }
+    .car-info>img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .car-name>h6 {
+        font-family: "Jost", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28.9px;
+        color: rgba(30, 30, 30, 1);
+        margin-bottom: 5px;
+    }
+    .airport {
+        display: block;
+        padding: 61px 50px;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+    }
+    .a-heading {
+        width: 100%;
+        margin: 0 0 41px 0;
+    }
+    .a-heading h2 {
+        text-align: center;
+    }
+    .a-heading p {
+        text-align: center;
+    }
+    .a-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .a-location {
+        height: 242px;
+        position: relative;
+    }
+    .services {
+        width: 100%;
+        padding: 73px 25px;
+        background-color: rgba(248, 248, 248, 1);
+    }
+    .s-heading {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 22px;
+    }
+    .s-heading h2 {
+        font: 700 28px "Jost", "sans serif";
+        line-height: 40.46px;
+        color: rgba(30, 30, 30, 1);
+        text-align: center;
+    }
+    .service-container {
+        width: 100%;
+        position: relative;
+        left: 0;
+        transform: translateX(0%);
+        margin-top: 38px;
+        display: block;
+    }
+    .service-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        max-width: 380px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-info {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .routes {
+        padding: 70px 25px;
+    }
+    .routes-heading h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .routes-content {
+        display: flex;
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 50px;
+        margin-top: 50px;
+    }
+    .routes-image {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .routes-list-inside {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+    }
+    .routes-1,
+    .routes-2,
+    .routes-3 {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        padding: 3px 5px 7px;
+    }
+    .review-container {
+        width: 100%;
+        padding: 64px 24px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .r-heading {
+        font: 700 28px "Jost", "sans-serif";
+        line-height: 40.46px;
+        text-align: center;
+        color: rgba(30, 30, 30, 1);
+    }
+    .reviews {
+        width: 100%;
+        margin: 50px 0px;
+        row-gap: 18px;
+    }
+    .review-box {
+        width: 100%;
+        padding: 35px 30px;
+        border: 1px solid rgba(248, 248, 248, 1);
+        box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+        border-radius: 10px;
+    }
+    .sightseeing {
+        width: 100%;
+        background-color: rgba(248, 248, 248, 1);
+        padding: 68px 23.5px;
+    }
+    .sight-head {
+        padding: 0px 24px;
+    }
+    .sight-head h2 {
+        font: 700 28px "Jost", "sans-serif";
+        line-height: 40.46px;
+        text-align: center;
+    }
+    .s-l-1 {
+        border: 1px solid rgba(248, 248, 248, 1);
+    }
+    .transfers {
+        width: 100%;
+        padding: 40px 24px 12px 24px;
+    }
+    .transfer-heading {
+        padding: 0px 10px;
+    }
+    .tr-h {
+        font: 700 28px "Jost", "sans-serif";
+        line-height: 40.46px;
+        text-align: center;
+        color: rgba(30, 30, 30, 1);
+        margin-bottom: 16px;
+    }
+    .last-header {
+        font: 700 20px "Jost", "sans-serif";
+        line-height: 28.9px;
+        color: rgba(250, 183, 0, 1);
+    }
+    .footer-box {
+        width: 100%;
+        height: auto;
+        background-color: rgba(30, 30, 30, 1);
+        padding: 18px 8px;
+    }
+    .sticky-call {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 8%;
+        right: 6.945%;
+        z-index: 99;
+    }
+    .st1 {
+        width: 64px;
+        height: 64px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        background-color: rgba(250, 183, 0, 1);
+    }
+    .st2 {
+        width: 64px;
+        height: 64px;
+        padding: 10px 12px 10px 13px;
+        border-radius: 70px;
+        background-color: green;
+    }
+    .sticky-phone {
+        font-size: 34px;
+        background-color: rgba(250, 183, 0, 1);
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sticky-watsapp {
+        font-size: 44px;
+        background-color: green;
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .booking-container {
+        width: 90%;
+    }
+    #nav-bar {
+        display: none;
+    }
+    .circle {
+        display: block;
+    }
+    .success-container {
+        row-gap: 40px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #booking-logo {
+        width: 150%;
+    }
+    #booking-logo img {
+        width: 100%;
+    }
+    #booking-phone-icon {
+        padding: 3%;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 760px) and (min-width: 481px) {
+    .modal-content {
+        height: 350px;
+        width: 80%;
+    }
+    .modal-image img {
+        height: 340px;
+    }
+    .owl-prev {
+        left: 2%;
+        font-size: 40px !important;
+    }
+    .owl-next {
+        right: 2%;
+        font-size: 40px !important;
+    }
+    header {
+        padding-bottom: 0;
+    }
+    .banner {
+        padding: 47px 80px 50px 80px;
+        height: 100%;
+    }
+    #logo {
+        width: 65.75%;
+    }
+    .frame-95 {
+        row-gap: 29px;
+    }
+    .form-box {
+        margin-top: 48px;
+        padding: 32px 32px;
+    }
+    .counters {
+        padding: 50px 100px;
+    }
+    .c1 {
+        max-width: 340px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .c1 h2 {
+        font: 700 48px "Jost", "sans-serif";
+    }
+    .fleet {
+        padding: 50px 100px;
+    }
+    .fleet-head h2 {
+        font: 700 32px "Jost", "sans-serif";
+    }
+    .fleet-content {
+        max-width: 400px;
+    }
+    .book-now-butn {
+        width: 70%;
+    }
+    .airport {
+        padding: 60px 70px;
+    }
+    .a-heading h2 {
+        font: 700 32px "Jost", "sans-serif";
+    }
+    .services {
+        padding: 73px 70px;
+    }
+    .s-heading h2 {
+        font: 700 32px "Jost", "sans serif";
+    }
+    .service-container {
+        margin: 0px;
+    }
+    .service-image {
+        padding: 40px;
+        margin-bottom: 0;
+    }
+    .review-container {
+        padding: 60px 100px;
+    }
+    .r-heading {
+        font: 700 32px "Jost", "sans-serif";
+    }
+    .sightseeing {
+        padding: 60px 80px;
+    }
+    .sight-head h2 {
+        font: 700 32px "Jost", "sans-serif";
+    }
+    .routes-list-inside {
+        row-gap: 13px;
+        justify-content: space-between;
+    }
+    .routes-1,
+    .routes-2,
+    .routes-3 {
+        width: 48%;
+    }
+    .transfers {
+        padding: 50px 70px 24px 70px;
+    }
+    #booking-phone-icon {
+        padding: 15px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 761px) {
+    .modal-content {
+        height: 400px;
+        width: 70%;
+    }
+    .modal-image img {
+        height: 390px;
+    }
+    header {
+        padding-bottom: 0;
+    }
+    .banner {
+        background-image: url(../images/Hero-banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 37px 25px 40px 24px;
+        height: 100%;
+    }
+    .counters {
+        width: 100%;
+        display: flex;
+        padding: 50px 50px;
+        justify-content: space-between;
+    }
+    .c1 {
+        width: 28.5%;
+        height: auto;
+        border: 1px solid rgba(248, 248, 248, 1);
+        box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+        border-radius: 10px;
+        padding: 27px 0px;
+    }
+    .c1 h2 {
+        text-align: center;
+        font-family: "Jost", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 59.36px;
+        width: auto;
+    }
+    .c1 p {
+        text-align: center;
+        font-family: "Jost", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.9px;
+        width: auto;
+    }
+    .fleet {
+        width: 100%;
+        padding: 50px 50px;
+        background-color: rgba(248, 248, 248, 1);
+    }
+    .fleet-head h2 {
+        font-size: 32px;
+    }
+    .fleet-content {
+        margin-top: 32px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        row-gap: 25px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .fleet-content-container {
+        background-color: rgba(255, 255, 255, 1);
+        width: 48%;
+        border: 1px solid rgba(248, 248, 248, 1);
+        box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+        border-radius: 10px;
+        padding: 16px 15px;
+    }
+    .airport {
+        width: 100%;
+        display: flex;
+        row-gap: 29px;
+        flex-direction: column;
+        padding: 50px 50px;
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+    }
+    .a-heading {
+        width: 100%;
+        margin: 0px;
+    }
+    .a-heading h2 {
+        font-family: "Jost", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40.46px;
+        color: rgba(30, 30, 30, 1);
+        margin-bottom: 9px;
+        text-align: center;
+    }
+    .a-heading p {
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        color: rgba(85, 85, 85, 1);
+        text-align: center;
+    }
+    .a-content {
+        width: 100%;
+    }
+    .services {
+        width: 100%;
+        padding: 50px 50px;
+        background-color: rgba(248, 248, 248, 1);
+    }
+    .s-heading {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        padding: 0px 30px;
+    }
+    .s-heading h2 {
+        font: 700 32px "Jost", "sans serif";
+    }
+    .service-container {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 38px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .service-image img {
+        height: auto;
+    }
+    .routes {
+        padding: 50px 50px;
+    }
+    .review-container {
+        padding: 50px 50px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .r-heading {
+        font: 700 32px "Jost", "sans-serif";
+        ;
+    }
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        margin: 50px 0px;
+    }
+    .review-box {
+        width: 48%;
+        padding: 35px 30px;
+        border: 1px solid rgba(248, 248, 248, 1);
+        box-shadow: 0px 10px 20px 0px rgba(146, 146, 146, 0.15);
+        border-radius: 10px;
+    }
+    .sightseeing {
+        padding: 50px 50px;
+    }
+    .sight-head h2 {
+        font: 700 32px "Jost", "sans-serif";
+    }
+    .routes-1,
+    .routes-2,
+    .routes-3 {
+        width: 100%;
+        padding: 3px 10px 7px;
+    }
+    .transfers {
+        padding: 50px 50px;
+    }
+    .tr-h {
+        font: 700 32px "Jost", "sans-serif";
+    }
+    .sticky-call {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 8%;
+        right: 6.945%;
+        z-index: 99;
+    }
+}
+
+/* @media screen and (max-width: 1600px) and (min-width: 1380px)
+{
+    .form-submit{
+        width: 100px;
+    }
+} */
+
+@media screen and (max-width: 1400px) and (min-width: 1024px) {
+    .routes-1,
+    .routes-2,
+    .routes-3 {
+        width: auto;
+        font-size: 16px;
+        padding: 10px 13px;
+    }
+    .routes-content column-gap: 20px;
+}
+
+@media screen and (max-height: 760px) {
+    .is_sticky {
+        position: relative;
+        bottom: 0;
+        margin-top: 85px;
+    }
+}
