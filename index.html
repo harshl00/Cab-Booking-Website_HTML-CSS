@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -294,34 +294,34 @@
                     <div class="heading">
                         NEED A UDAIPUR AIRPORT <span class="span-taxi">TAXI</span> TRANSFER?
                     </div>
-
+<!-- 
                     <div class="mobile-f2">
                         <img src="images/Group.png" alt="Google 5 star Review">
-                    </div>
+                    </div> -->
 
                     <div class="body-text">
                         <p class="bt"
                         We are the most trusted taxi service in Udaipur. We assure you stress-free and safe taxi & cab services in Udaipur to provide a pleasurable experience during your travel within the city and surrounding areas. Plan your trip, Udaipur airport transfers (Maharana Pratap Airport) or sightseeing tours with ease. Choose our flexible Udaipur car booking services online for Udaipur taxis.
                      <BR>
-                        <p class="bt">Our Constant 5+ Rating on Google Reviews along with easy availability at the click of a button make us the safest & easiest Goa taxi booking service.</p>
+                        <p class="bt">Our Constant 5+ Rating on Google Reviews along with easy availability at the click of a button make us the safest & easiest UDAIPUR taxi booking service.</p>
                         <br>
                         <p class="bt span-call">Call us today at 9414620550 /9146175339</p>
                     </div>
 
                 </div>
 
-                <div class="f2">
+                <!-- <div class="f2">
                     <img src="images/Group.png" alt="Google 5 star Review">
-                </div>
+                </div> -->
             </div>
 
             <div id="form-box" class="form-box">
-                <form action="https://formspree.io/f/mvgzovne" method="POST" id="contact-form" class="form-content">
+                <form action="https://formspree.io/f/xjkgkvbz" method="POST" id="contact-form" class="form-content">
                     
                     <!-- Pickup location -->
                     <div class="form-bundle">
                         <label for="pup_location">Pickup location</label><br>
-                        <select id="pup_location" name="pup_location" class="form-input select-input">
+                        <select id="pup_location" name="pup_location" class="form-input select-input" required>
                             <option value="" disabled selected hidden>Choose Location</option>
                             <option value="Maharana Pratap Airport">Maharana Pratap Airport</option>
                             <option value="Udaipur Railway Station">Udaipur Railway Station</option>
@@ -349,7 +349,7 @@
                     <!-- Dropoff location -->
                     <div class="form-bundle">
                         <label for="doff_location">Dropoff location</label><br>
-                        <select id="doff_location" name="doff_location" class="form-input select-input">
+                        <select id="doff_location" name="doff_location" class="form-input select-input" required>
                             <option value="" disabled selected hidden>Choose Location</option>
                             <option value="Maharana Pratap Airport">Maharana Pratap Airport</option>
                             <option value="Udaipur Railway Station">Udaipur Railway Station</option>
@@ -485,12 +485,52 @@
                 </form>
             </div>
             
+            <script>
+                // Get the elements for manual input fields and dropdowns
+                const pupLocationDropdown = document.getElementById('pup_location');
+                const pupLocationManual = document.getElementById('pup_location_manual');
+                const doffLocationDropdown = document.getElementById('doff_location');
+                const doffLocationManual = document.getElementById('doff_location_manual');
+            
+                // Function to handle visibility and required fields for pickup location
+                function handlePickupLocation() {
+                    if (pupLocationManual.value) {
+                        pupLocationDropdown.style.display = 'none';  // Hide dropdown
+                        pupLocationDropdown.removeAttribute('required');
+                    } else {
+                        pupLocationDropdown.style.display = 'block';  // Show dropdown
+                        pupLocationDropdown.setAttribute('required', 'true');
+                    }
+                }
+            
+                // Function to handle visibility and required fields for drop-off location
+                function handleDropoffLocation() {
+                    if (doffLocationManual.value) {
+                        doffLocationDropdown.style.display = 'none';  // Hide dropdown
+                        doffLocationDropdown.removeAttribute('required');
+                    } else {
+                        doffLocationDropdown.style.display = 'block';  // Show dropdown
+                        doffLocationDropdown.setAttribute('required', 'true');
+                    }
+                }
+            
+                // Event listeners to track changes
+                pupLocationManual.addEventListener('input', handlePickupLocation);
+                doffLocationManual.addEventListener('input', handleDropoffLocation);
+            
+                // Call the function initially to set the correct state
+                handlePickupLocation();
+                handleDropoffLocation();
+            </script>
+            
+            </div>
+            
             </div>
          
         </section>
     </header>
 
-    <!-- Counters -->
+    <!-- Counters
     <section class="counters">
         <div class="c1 c1-margin">
             <h2 class="ch1">
@@ -517,13 +557,13 @@
                 customers
             </p>
         </div>
-    </section>
+    </section> -->
 
     <!-- Car fleet -->
     <section class="fleet">
         <div class="fleet-head">
             <h2>Our Fleet</h2>
-            <p>We offer a large range of airport transfer Cars & Buses in Goa, along with All Goa Sightseeing tours and All Day/Half Day Taxi Hire Services in Goa</p>
+            <p>We offer a large range of airport transfer Cars & Buses in udaipur, along with All udaipur Sightseeing tours and All Day/Half Day Taxi Hire Services in udaipur</p>
         </div>
 
         <div class="fleet-content">
@@ -657,7 +697,7 @@
     <section class="services">
         <div class="s-heading">
             <h2>Services We Offer</h2>
-            <p>Clean Vehicles, Well Mannered Drivers, Cheapest Comfortable Taxi Service in Goa</p>
+            <p>Clean Vehicles, Well Mannered Drivers, Cheapest Comfortable Taxi Service in Udaipur</p>
         </div>
 
         <div class="service-container">
@@ -673,7 +713,7 @@
 
                     <div class="s-brief">
                         <h4>Pick Up & Drop</h4>
-                        <p>Our Taxis can pick up & drop you from all points of Goa like airport, train stations, bus stands and hotels across major locations in North Goa.</p>
+                        <p>Our Taxis can pick up & drop you from all points of Udaipur like airport, train stations, bus stands and hotels across major locations in udaipur.</p>
                     </div>
                 </article>
 
@@ -695,7 +735,7 @@
 
                     <div class="s-brief">
                         <h4>Sightseeing</h4>
-                        <p>Let our trained drivers show you the various sights and attractions of Goa, that you will always remember.</p>
+                        <p>Let our trained drivers show you the various sights and attractions of Udaipur, that you will always remember.</p>
                     </div>
                 </article>
             </div>
@@ -911,7 +951,7 @@
         </div>
     
         <div class="p-n-g">
-            <h3 class="last-header">Airport Pickup to South Udaipur Hotels</h3>
+            <h3 class="last-header">Airport Pickup to  Udaipur Hotels</h3>
             <ul class="transfer-list">
                 <li>Radisson Blu Resort</li>
                 <li>Leela Palace Resort</li>
@@ -933,33 +973,42 @@
     <!-- SightSeeing Examples -->
     <section class="sightseeing">
         <div class="sight-head">
-            <h2>Sightseeing Locations in Goa</h2>
+            <h2>Sightseeing Locations in Udaipur</h2>
         </div>
-
+    
         <div id="Sightseeing-slider" class="sightseeing-locations owl-carousel owl-theme myslider">
             <div class="s-l-1">
-                <img src="images/North Goa Sightseeing.png" alt="North Goa SightSeeing">
-                <p>North Goa Sightseeing</p>
+                <img src="images/City Palace Udaipur.png" alt="City Palace Udaipur">
+                <p>City Palace</p>
             </div>
-
+    
             <div class="s-l-1">
-                <img src="images/south goa.png" alt="South Goa SightSeeing">
-                <p>South Goa Sightseeing</p>
+                <img src="images/Lake Pichola.png" alt="Lake Pichola">
+                <p>Lake Pichola</p>
             </div>
-
+    
             <div class="s-l-1">
-                <img src="images/WaterFall.png" alt="Nature Trails">
-                <p>Nature Trails</p>
+                <img src="images/Sajjangarh Palace.png" alt="Sajjangarh Palace">
+                <p>Sajjangarh Palace (Monsoon Palace)</p>
             </div>
-
+    
             <div class="s-l-1">
-                <img src="images/walking trails.png" alt="Walking Tours">
-                <p>Walking Tours</p>
+                <img src="images/Jagdish Temple.png" alt="Jagdish Temple">
+                <p>Jagdish Temple</p>
             </div>
-
+    
+            <div class="s-l-1">
+                <img src="images/Fateh Sagar Lake.png" alt="Fateh Sagar Lake">
+                <p>Fateh Sagar Lake</p>
+            </div>
+    
+            <div class="s-l-1">
+                <img src="images/Bagore Ki Haveli.png" alt="Bagore Ki Haveli">
+                <p>Bagore Ki Haveli</p>
+            </div>
         </div>
     </section>
-
+    
     <!-- <div class="sticky-call">
         <div class="st1">
             <i class="fa-solid fa-phone sticky-phone"></i>
@@ -975,18 +1024,18 @@
         <div class="footer-content">Copyright &copy;
             <script>
                 document.write(new Date().getFullYear())
-            </script> GoaTaxiNCabs.com | Made with <i class="fa-regular fa-heart footer-icon"></i> by <a href="https://www.teaminertia.com/">Team Inertia Technologies</a></div>
+            </script> onewaytaxiservice.in | Made with <i class="fa-regular fa-heart footer-icon"></i> by <a>h&h creations</a></div>
     </footer>
 
 
     <div class="sticky-call">
         <!-- Floating Call Button -->
-        <a href="tel: +918668379192" target="_blank" class="st1">
+        <a href="tel: +919414620550" target="_blank" class="st1">
             <i class="fa-solid fa-phone sticky-phone"></i>
         </a>
         <!-- Floating Call Button -->
 
-        <a href="https://api.whatsapp.com/send?phone=918668379192" target="_blank" class="st2">
+        <a href="https://api.whatsapp.com/send?phone=9414620550" target="_blank" class="st2">
             <i class="fa-brands fa-whatsapp sticky-watsapp"></i>
         </a>
     </div>
